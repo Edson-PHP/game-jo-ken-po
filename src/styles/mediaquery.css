@@ -1,0 +1,132 @@
+@media screen and (max-width: 1260px) {
+
+    #score_points {
+        font-size: 12px;
+    }
+
+    .container__right .card-box__container {
+        height: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container__left.framed-golden-2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .card_details.frame{
+        width: 40%;
+    }
+
+    img#card-image {
+        width: 70px;
+    }
+
+    #score_points {
+        font-size: 10px;
+    }
+
+    p#card-name,
+    p#card-type{
+        font-size: 10px;
+    }
+
+    video.video{
+        display: none;
+    }
+
+    .bg-video::after{
+        display: none;
+    }
+
+   .container .container__right {
+        width: 100%;
+        background: black;
+    }
+
+    body .container {
+        display: flex;
+        height: 0px;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1190px) {
+    #score_points {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 764px) and (max-width: 884px){
+    div#player-cards {
+        margin-top: 185px;
+    }
+
+    .card-versus__container {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 448px){
+
+    p#card-name,
+    p#card-type,
+    #score_points {
+        font-size: 7px;
+    }
+
+    .frame.score_box {
+        padding: 10px;
+    }
+
+    img.card {
+        width: 40px;
+        height: 60px;
+    }
+
+    img#computer-field-card,
+    img#player-field-card {
+        width: 75px;
+        height: 155px;
+    }
+
+    .card-infield {
+        display: flex;
+        justify-content: center;
+    }
+
+    body{
+        min-width: 360px;
+        min-height: 100vh;
+        background-color: black;
+    }
+
+    .container__right .card-box__container {
+        margin-top: 0;
+        height: 30px;
+    }
+
+    .card-box__container .card-box {
+        height: 110px;
+    }
+
+    .container__left.framed-golden-2 {
+        height: 160px;
+    }
+
+    body .container {
+        display: flex;
+        height: 0px;
+        margin: 10px;
+    }
+}
